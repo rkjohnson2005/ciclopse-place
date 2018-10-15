@@ -4,8 +4,8 @@ use CICLOPSE;
 
 class Place extends CICLOPSE\Standard
 {
-    public function __construct($table_id = '')
+    public function __construct($id = '', $table = 'place', $database = 'Rickzilla')
     {
-        parent::__construct('place', 'Rickzilla', $table_id);
+        parent::__construct($id, $table, $database);
     }
 }
