@@ -11,8 +11,10 @@
     "minimum-stability": "dev",
     "license": "proprietary",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "rjohnson/ciclopse-standard": "dev-master"
     },
+    "prefer-stable": true,
     "autoload": {
         "classmap": [
             "src/"

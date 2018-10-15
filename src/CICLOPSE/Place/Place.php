@@ -1,7 +1,8 @@
 <?php
 namespace CICLOPSE\Place;
+use CICLOPSE;
 
-class Place
+class Place extends CICLOPSE\Standard
 {
     public static function hello() {
         return 'hello';
