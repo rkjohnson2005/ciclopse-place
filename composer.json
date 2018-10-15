@@ -1,0 +1,20 @@
+{
+    "name": "rjohnson/ciclopse-place",
+    "description": "Place module for CICLOPSE",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Richard Johnson",
+            "email": "rjohnson@faac.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
